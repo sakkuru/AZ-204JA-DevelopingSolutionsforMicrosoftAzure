@@ -1,7 +1,7 @@
 ﻿# AZ-204: Microsoft Azure 向けソリューションの開発
 
 - **[最新の学生ハンドブックと AllFiles コンテンツをダウンロードする](../../releases/latest)**
-- **MCTの場合は、** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください。
+- **MCTの場合は、** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide-JA/)をご覧ください。
 - **ラボの手順を手動でビルドする必要がある場合は、** - [Microsoft Learning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) リポジトリで手順を入手できます。
 
 ## ここで行うこと
