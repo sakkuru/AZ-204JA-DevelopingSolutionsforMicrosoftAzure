@@ -232,7 +232,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
             .WithAuthority(AzureCloudInstance.AzurePublic, _tenantId)
         ```
 
-    1.  **http://localhost** の文字列値を渡して、ベース **AbstractApplicationBuilder<>** クラスの 「**WithRedirectUri()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1.withredirecturi)** メソッドを使用する別のコード行を追加し、前のコード行を更新します。
+    1.  **http://localhost** の文字列値を渡して、ベース **AbstractApplicationBuilder<>** クラスの 「**[WithRedirectUri()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1.withredirecturi)** メソッドを使用する別のコード行を追加し、前のコード行を更新します。
 
         ```
         PublicClientApplicationBuilder

@@ -461,7 +461,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
         string topicHostname = new Uri(topicEndpoint).Host;
         ```
 
-    1.  次のコード行を追加し、パラメーターとして **topicHostname** と **events** を使い、**EventGridClient.PublishEventsAsync(https://docs.microsoft.com/dotnet/api/microsoft.azure.eventgrid.eventgridclient.publisheventswithhttpmessagesasync)** メソッドを呼び出します。
+    1.  次のコード行を追加し、パラメーターとして **topicHostname** と **events** を使い、**[EventGridClient.PublishEventsAsync](https://docs.microsoft.com/dotnet/api/microsoft.azure.eventgrid.eventgridclient.publisheventswithhttpmessagesasync)** メソッドを呼び出します。
 
         ```
         await client.PublishEventsAsync(topicHostname, events);

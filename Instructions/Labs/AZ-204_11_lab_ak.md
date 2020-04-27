@@ -308,7 +308,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
         await client.ReceiveMessagesAsync(batchSize, visibilityTimeout);
         ```
 
-    1.  型 **Response<QueueMessage[]>(https://docs.microsoft.com/dotnet/api/azure.response-1)** の *messages* という名前の新しい変数に式の結果を保存するコードを追加して、前のコード行を更新します。
+    1.  型 **[Response<QueueMessage[]>](https://docs.microsoft.com/dotnet/api/azure.response-1)** の *messages* という名前の新しい変数に式の結果を保存するコードを追加して、前のコード行を更新します。
 
         ```
         Response<QueueMessage[]> messages = await client.ReceiveMessagesAsync(batchSize, visibilityTimeout);
@@ -316,7 +316,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **Main** メソッド内で、次のアクションを実行して、各メッセージのプロパティを反復処理してレンダリングします。
 
-    1.  次のコード行を追加して、**QueueMessage[](https://docs.microsoft.com/dotnet/api/azure.storage.queues.models.queuemessage)** 型の *メッセージ* 変数の **Value(https://docs.microsoft.com/dotnet/api/azure.response-1.value)** プロパティに格納されている各メッセージを反復処理する **foreach** ループを作成します。
+    1.  次のコード行を追加して、**[QueueMessage[]](https://docs.microsoft.com/dotnet/api/azure.storage.queues.models.queuemessage)** 型の *メッセージ* 変数の **[Value](https://docs.microsoft.com/dotnet/api/azure.response-1.value)** プロパティに格納されている各メッセージを反復処理する **foreach** ループを作成します。
 
         ```
         foreach(QueueMessage message in messages?.Value)
